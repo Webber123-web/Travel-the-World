@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+<script>
+
+function update1() {
+	const destination = document.getElementById("destination").value;
+	const accommodation = document.getElementById("accommodation").value;
+	const people = document.getElementById("people").value;
+}
+
+function checkValues() {
+	const destination = .toLowerCase(document.getElementById("destination").value);
+        const allowedCountries = ["Belgium", "Spain", "Italy", "France", "Greece", "Portugal", "Ireland", "Croatia"];
+	const accommodation= .toLowerCase(document.getElementById("accommodation").value);
+        const allowedAccommodation = ["Villa", "Hotel", "Apartment"];
+
+	const people = .toLowerCase(document.getElementById("people").value;
+
+	if (!allowedCountries.includes(country)) {
+        window.alert("Invalid country. Please enter a valid country (Belgium, Spain, Italy, France, Greece, Portugal, Ireland, Croatia).");
+        return;
+	}
+
+
+	if (!allowedAccommodation.includes(accommodation)) {
+        window.alert("Invalid accomodation. Please enter a valid accommodation (Hotel, Villa, Apartment).");
+        return;
+	}
+
+
+	if (people < 0 || people > 10 || isNaN(people)) {
+		window.alert("Not a valid amount (must be between 0 and 10)");
+		return;
+       
+	update1();
+	window.alert("Successfully submitted");
+}
+</script>
+
+</head>
+<body>
+
+	<form action="javascript: checkValues()">
+
+		<label>Destination</label>
+		<input type="text" id="destination"/><br>
+		<label>Accommodation</label>
+		<input type="text" id="accommodation"/><br>
+		<label>Number of People</label>
+		<input type="text" id="people"/>
+		<input type="submit" value="Submit"/>
+
+	</form>

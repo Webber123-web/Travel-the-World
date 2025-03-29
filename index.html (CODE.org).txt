@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Sections for Each Country (Each with a unique ID to act as anchors) -->
+    <div id="Belgium">
+      <h2>Belgium</h2>
+      <p>Information about Belgium...</p>
+    </div>
+
+    <div id="Spain">
+      <h2>Spain</h2>
+      <p>Information about Spain...</p>
+    </div>
+
+    <div id="Italy">
+      <h2>Italy</h2>
+      <p>Information about Italy...</p>
+    </div>
+
+    <div id="France">
+      <h2>France</h2>
+      <p>Information about France...</p>
+    </div>
+
+    <div id="Greece">
+      <h2>Greece</h2>
+      <p>Information about Greece...</p>
+    </div>
+
+    <div id="Portugal">
+      <h2>Portugal</h2>
+      <p>Information about Portugal...</p>
+    </div>
+
+    <div id="Ireland">
+      <h2>Ireland</h2>
+      <p>Information about Ireland...</p>
+    </div>
+
+    <div id="Croatia">
+      <h2>Croatia</h2>
+      <p>Information about Croatia...</p>
+    </div>
+
+  </head>
+  <body>
+    
+  </body>
+</html>
